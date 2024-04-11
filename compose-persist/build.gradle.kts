@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "it.fast4x.compose.persist"
+    namespace = "com.universe.compose.persist"
     compileSdk = 34
 
     defaultConfig {

@@ -6,9 +6,9 @@
         android:icon="@drawable/search"
         android:shortcutShortLabel="@string/search">
         <intent
-            android:targetClass="it.fast4x.rimusic.MainActivity"
-            android:targetPackage="it.fast4x.rimusic"
-            android:action="it.fast4x.rimusic.action.search" />
+            android:targetClass="com.universe.audioflare.MainActivity"
+            android:targetPackage="com.universe.audioflare"
+            android:action="com.universe.audioflare.action.search" />
     </shortcut>
     <shortcut
         android:shortcutId="songs"
@@ -16,9 +16,9 @@
         android:icon="@drawable/disc"
         android:shortcutShortLabel="@string/songs">
         <intent
-            android:targetClass="it.fast4x.rimusic.MainActivity"
-            android:targetPackage="it.fast4x.rimusic"
-            android:action="it.fast4x.rimusic.action.songs" />
+            android:targetClass="com.universe.audioflare.MainActivity"
+            android:targetPackage="com.universe.audioflare"
+            android:action="com.universe.audioflare.action.songs" />
     </shortcut>
     <shortcut
         android:shortcutId="albums"
@@ -26,9 +26,9 @@
         android:icon="@drawable/album"
         android:shortcutShortLabel="@string/albums">
         <intent
-            android:targetClass="it.fast4x.rimusic.MainActivity"
-            android:targetPackage="it.fast4x.rimusic"
-            android:action="it.fast4x.rimusic.action.albums" />
+            android:targetClass="com.universe.audioflare.MainActivity"
+            android:targetPackage="com.universe.audioflare"
+            android:action="com.universe.audioflare.action.albums" />
     </shortcut>
     <shortcut
         android:shortcutId="library"
@@ -36,8 +36,8 @@
         android:icon="@drawable/library"
         android:shortcutShortLabel="@string/library">
         <intent
-            android:targetClass="it.fast4x.rimusic.MainActivity"
-            android:targetPackage="it.fast4x.rimusic"
-            android:action="it.fast4x.rimusic.action.library" />
+            android:targetClass="com.universe.audioflare.MainActivity"
+            android:targetPackage="com.universe.audioflare"
+            android:action="com.universe.audioflare.action.library" />
     </shortcut>
 </shortcuts>

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "it.fast4x.compose.reordering"
+    namespace = "com.universe.compose.reordering"
     compileSdk = 34
 
     defaultConfig {

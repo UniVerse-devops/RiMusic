@@ -1,0 +1,138 @@
+package com.universe.audioflare.ui.screens
+
+import android.annotation.SuppressLint
+import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.material.ExperimentalMaterialApi
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.ui.text.ExperimentalTextApi
+import androidx.media3.common.util.UnstableApi
+import com.universe.compose.routing.Route0
+import com.universe.compose.routing.Route1
+import com.universe.compose.routing.Route2
+import com.universe.compose.routing.Route3
+import com.universe.compose.routing.RouteHandlerScope
+import com.universe.audioflare.enums.BuiltInPlaylist
+import com.universe.audioflare.enums.DeviceLists
+import com.universe.audioflare.enums.SearchType
+import com.universe.audioflare.enums.StatisticsType
+import com.universe.audioflare.models.Mood
+import com.universe.audioflare.ui.screens.album.AlbumScreenWithoutScaffold
+import com.universe.audioflare.ui.screens.artist.ArtistScreen
+import com.universe.audioflare.ui.screens.home.HomeScreen
+import com.universe.audioflare.ui.screens.playlist.PlaylistScreen
+import com.universe.audioflare.ui.screens.localplaylist.LocalPlaylistScreen
+import com.universe.audioflare.ui.screens.mood.MoodScreen
+import com.universe.audioflare.ui.screens.ondevice.DeviceListSongsScreen
+import com.universe.audioflare.ui.screens.search.SearchTypeScreen
+import com.universe.audioflare.ui.screens.statistics.StatisticsScreen
+
+val quickpicksRoute = Route1<String?>("quickpicksRoute")
+val albumRoute = Route1<String?>("albumRoute")
+val artistRoute = Route1<String?>("artistRoute")
+val builtInPlaylistRoute = Route1<BuiltInPlaylist>("builtInPlaylistRoute")
+val deviceListSongRoute = Route1<String>("deviceListSongRoute")
+val statisticsTypeRoute = Route1<StatisticsType>("statisticsTypeRoute")
+val localPlaylistRoute = Route1<Long?>("localPlaylistRoute")
+val searchResultRoute = Route1<String>("searchResultRoute")
+val searchRoute = Route1<String>("searchRoute")
+val searchTypeRoute = Route1<SearchType>("searchTypeRoute")
+val settingsRoute = Route0("settingsRoute")
+val homeRoute = Route0("homeRoute")
+val moodRoute = Route1<Mood>("moodRoute")
+//val playlistRoute = Route1<String?>("playlistRoute")
+val playlistRoute = Route3<String?, String?, Int?>("playlistRoute")
+//val playlistRoute = Route2<String?, String?>("playlistRoute")
+
+@ExperimentalMaterialApi
+@ExperimentalTextApi
+@SuppressLint("ComposableNaming")
+@Suppress("NOTHING_TO_INLINE")
+@ExperimentalAnimationApi
+@ExperimentalFoundationApi
+@ExperimentalComposeUiApi
+@UnstableApi
+@Composable
+inline fun RouteHandlerScope.globalRoutes() {
+    albumRoute { browseId ->
+        AlbumScreenWithoutScaffold(
+            browseId = browseId ?: error("browseId cannot be null")
+        )
+        /*
+        AlbumScreen(
+            browseId = browseId ?: error("browseId cannot be null")
+        )
+         */
+    }
+
+    artistRoute { browseId ->
+        ArtistScreen(
+            browseId = browseId ?: error("browseId cannot be null")
+        )
+    }
+
+    localPlaylistRoute { playlistId ->
+        LocalPlaylistScreen(
+            playlistId = playlistId ?: error("playlistId cannot be null")
+        )
+    }
+
+
+    playlistRoute { browseId, params, maxDepth ->
+        PlaylistScreen(
+            browseId = browseId ?: error("browseId cannot be null"),
+            params = params,
+            maxDepth = maxDepth
+        )
+    }
+    /*
+    playlistRoute { browseId, params ->
+        PlaylistScreen(
+            browseId = browseId ?: error("browseId cannot be null"),
+            params = params
+        )
+    }
+     */
+    /*
+    playlistRoute { browseId ->
+        PlaylistScreen(
+        )
+    }
+ */
+
+    statisticsTypeRoute { browseId ->
+        StatisticsScreen(
+            statisticsType = browseId ?: error("browseId cannot be null")
+        )
+    }
+
+    searchTypeRoute { browseId ->
+        SearchTypeScreen(
+            searchType = browseId ?: error("browseId cannot be null")
+        )
+    }
+
+    homeRoute {
+        HomeScreen(
+            onPlaylistUrl = {pop},
+            openTabFromShortcut = -1
+        )
+    }
+
+    moodRoute { mood ->
+        MoodScreen(mood = mood)
+    }
+
+
+    deviceListSongRoute { browseId ->
+        DeviceListSongsScreen(
+            deviceLists = DeviceLists.LocalSongs
+        )
+    }
+
+    quickpicksRoute { browseId ->
+
+    }
+
+}

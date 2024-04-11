@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "it.fast4x.compose.routing"
+    namespace = "com.universe.compose.routing"
     compileSdk = 34
 
     defaultConfig {

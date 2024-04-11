@@ -1,12 +1,12 @@
 <div align="center">
   <img src="./assets/design/app_logo.svg" width="300" height="100" />    
-  <p><b>RiMusic</b> is a <b>multilingual</b> Android application for streaming music from YouTube Music.</p>
+  <p><b>audioflare</b> is a <b>multilingual</b> Android application for streaming music from YouTube Music.</p>
   <p>It was born as an extension of the functionality of <b>ViMusic</b>, which retains the general appearance, colors.</p>
 </div>
 
 ## ✨ Features
 - **Multilingual support:** English, Italian, German, Russian, French, Spanish, Czech, Turkish, Romanian and more. Contributions for other languages are welcome
-- UI Mode, change style from RiMusic to classic ViMusic style and viceversa
+- UI Mode, change style from audioflare to classic ViMusic style and viceversa
 - Play song from YouTube Music
 - Change your favorite language from settings
 - Auto cache songs for offline playback with custom cache size
@@ -14,14 +14,14 @@
 - Background playback with stop while app swipe out from task manager
 - Minimized player optimizations
 - Listening statistics
-- Audio visualizer on player with many type of effects. THIS FEATURE REQUIRE MIC PERMISSION, ONLY IF ACTIVATE IT FROM SETTINGS. BY DEFAULT IS DISABLED [Full list of permissions](https://github.com/fast4x/RiMusic/wiki/FAQs#-what-permissions-are-used)
+- Audio visualizer on player with many type of effects. THIS FEATURE REQUIRE MIC PERMISSION, ONLY IF ACTIVATE IT FROM SETTINGS. BY DEFAULT IS DISABLED [Full list of permissions](https://github.com/skylinemusiccds/audioflare/wiki/FAQs#-what-permissions-are-used)
 - News, mood and musical genres
 - New albums from preferites artists
 - Search for songs, albums, artists and playlists
 - Bookmark artists and albums
 - Import online playlists 
 - Local playlist management
-- Export/Import local playlist, can share with friend RiMusic playlist
+- Export/Import local playlist, can share with friend audioflare playlist
 - Reorder songs in playlist or queue
 - Persistent queue
 - Clear queue
@@ -55,7 +55,7 @@
 - **Czech:** thanks to [ikanakova](https://github.com/ikanakova) and [JZITNIK-github](https://github.com/JZITNIK-github)
 - **Danish** thanks to [cultcats](https://crowdin.com/profile/cultcats)
 - **Dutch:** thanks to [BabyBenefactor](https://crowdin.com/profile/BabyBenefactor)
-- **English:** thanks to [fast4x](https://github.com/fast4x)
+- **English:** thanks to [skylinemusiccds](https://github.com/skylinemusiccds)
 - **Esperanto:** thanks to [kjev666](https://github.com/kjev666)
 - **Finnish:** thanks to [rikalaj](https://crowdin.com/profile/rikalaj)
 - **French:** thanks to [NEVARLeVrai](https://github.com/NEVARLeVrai)
@@ -64,7 +64,7 @@
 - **Hebrew:** thanks to [TheCreeperDuck](https://crowdin.com/profile/thecreeperduck)
 - **Hindi:** thanks to [NikunjKhangwal](https://crowdin.com/profile/nikunjkhangwal) and [Sharunkumar](https://crowdin.com/profile/sharunkumar) and [Th3-C0der](https://github.com/Th3-C0der)
 - **Hungarìan:** thanks to [Zan1456](https://crowdin.com/profile/Zan1456) and [Ndvok](https://crowdin.com/profile/ndvok)
-- **Italian:** thanks to [agefcgo](https://crowdin.com/profile/agefcgo) and [CiccioDerole](https://crowdin.com/profile/CiccioDerole) and [fast4x](https://github.com/fast4x)
+- **Italian:** thanks to [agefcgo](https://crowdin.com/profile/agefcgo) and [CiccioDerole](https://crowdin.com/profile/CiccioDerole) and [skylinemusiccds](https://github.com/skylinemusiccds)
 - **Indonesian:** thanks to [luthfialfarabi](https://crowdin.com/profile/luthfialfarabi) and [teddysulaimanGL](https://github.com/teddysulaimanGL) and [Fausta Ahmad](https://crowdin.com/profile/faustaahmad)  
 - **Japanese:** thanks to [Mid_Vur_Shaan](https://crowdin.com/profile/Mid_Vur_Shaan)
 - **Korean:** thanks to [ZeroZero00](https://crowdin.com/profile/ZeroZero00) and [TsyQax](https://crowdin.com/profile/TsyQax)
@@ -85,16 +85,16 @@
 - **Vietnamese:** thanks to [teaminh](https://crowdin.com/profile/teaminh)
 
 ## 📲 Installation
-[<img src="./assets/images/getItGithub.png" alt="GitHub" height="80">](https://github.com/fast4x/RiMusic/releases/latest)
-[<img src="./assets/images/getItIzzyOnDroid.png" alt="IzzyOnDroid" height="80">](https://apt.izzysoft.de/fdroid/index/apk/it.fast4x.rimusic/)
-[<img src="./assets/images/getItf-droid.png" alt="F-Droid" height="80">](https://f-droid.org/it/packages/it.fast4x.rimusic/)
+[<img src="./assets/images/getItGithub.png" alt="GitHub" height="80">](https://github.com/skylinemusiccds/audioflare/releases/latest)
+[<img src="./assets/images/getItIzzyOnDroid.png" alt="IzzyOnDroid" height="80">](https://apt.izzysoft.de/fdroid/index/apk/com.universe.audioflare/)
+[<img src="./assets/images/getItf-droid.png" alt="F-Droid" height="80">](https://f-droid.org/it/packages/com.universe.audioflare/)
 
 ## ❗ CUSTOM VERSION
 WARNING, the custom version is not an official release, downloading only if invited by the developer!
-[Go to custom version](https://github.com/fast4x/RiMusic/tree/master/customVersion)
+[Go to custom version](https://github.com/skylinemusiccds/audioflare/tree/master/customVersion)
 
 ## ❓ FAQs
-- See [Wiki page FAQs](https://github.com/fast4x/RiMusic/wiki/FAQs)
+- See [Wiki page FAQs](https://github.com/skylinemusiccds/audioflare/wiki/FAQs)
 
 ## 🤝 Contributing
 **Pull requests are welcome**
@@ -104,7 +104,7 @@ WARNING, the custom version is not an official release, downloading only if invi
   
 
 ## 🔤 Translations
-- Go to [Crowdin](https://crowdin.com/project/rimusic/invite?h=73f0e6b64be1c64a8aebd467d286cf851925330) and help with the translations.
+- Go to [Crowdin](https://crowdin.com/project/audioflare/invite?h=73f0e6b64be1c64a8aebd467d286cf851925330) and help with the translations.
 
 
 ## 🤝 Contributors
@@ -127,7 +127,7 @@ WARNING, the custom version is not an official release, downloading only if invi
 - [Dženan](https://crowdin.com/profile/Dženan)
 - [EMC_Translator](https://crowdin.com/profile/EMC_Translator)
 - [Fabian Urra](https://crowdin.com/profile/nsagcl)
-- [fast4x](https://github.com/fast4x)
+- [skylinemusiccds](https://github.com/skylinemusiccds)
 - [Fausta Ahmad](https://crowdin.com/profile/faustaahmad)  
 - [Get100percent](https://github.com/Get100percent)
 - [HelloZebra1133](https://crowdin.com/profile/HelloZebra1133)
@@ -179,7 +179,7 @@ WARNING, the custom version is not an official release, downloading only if invi
 - [821938089](https://github.com/821938089)
 - [Craeckie](https://github.com/Craeckie)
 - [DanielSevillano](https://github.com/DanielSevillano)
-- [fast4x](https://github.com/fast4x)
+- [skylinemusiccds](https://github.com/skylinemusiccds)
 - [ikanakova](https://github.com/ikanakova)
 - [JZITNIK-github](https://github.com/JZITNIK-github)
 - [locxter](https://github.com/locxter)
@@ -190,11 +190,11 @@ WARNING, the custom version is not an official release, downloading only if invi
 
 ## 🫂 Acknowledgments
 - [**ViMusic**](https://github.com/vfsfitvnm/ViMusic)
-- **RiMusic Logo and icons** [@ikanakova](https://github.com/ikanakova)
-- **RiMusic Website and other features** [JZITNIK-github](https://github.com/JZITNIK-github)
+- **audioflare Logo and icons** [@ikanakova](https://github.com/ikanakova)
+- **audioflare Website and other features** [JZITNIK-github](https://github.com/JZITNIK-github)
 - [**YouTube-Internal-Clients**](https://github.com/zerodytrash/YouTube-Internal-Clients): A python script that discovers hidden YouTube API clients. Just a research project.
 - [**Ionicons**](https://github.com/ionic-team/ionicons): Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere.
-- [**Rubik** Font](https://fonts.google.com/specimen/Rubik): Rubik is RiMusic's default font.
+- [**Rubik** Font](https://fonts.google.com/specimen/Rubik): Rubik is audioflare's default font.
 - [**Poppins** Font](https://fonts.google.com/specimen/Poppins): Poppins is ViMusic's default font.
 - [**Translator**](https://github.com/therealbush/translator): A simple and free Google Translate library for Kotlin/JVM and Java.
 - [**KuGou**](https://www.kugou.com): Lyrics text
